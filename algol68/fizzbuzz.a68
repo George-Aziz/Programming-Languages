@@ -1,0 +1,19 @@
+COMMENT
+AUTHOR: George Aziz
+DATE CREATED: 11/08/2020
+PURPOSE: FizzBuzz Program Created in Algol68
+COMMENT
+
+BEGIN
+    FOR ii FROM 1 TO 100 DO
+        IF ii MOD 15 = 0 THEN
+            printf ($"FizzBuzz"l$)
+        ELIF ii MOD 5 = 0 THEN
+            printf ($"Buzz"l$)
+        ELIF ii MOD 3 = 0 THEN 
+            printf ($"Fizz"l$)
+        ELSE 
+            printf(($g(0)l$, ii)) # $g(0)l$ to display with no '+' before number and new line (formatting)#
+        FI
+    OD
+END

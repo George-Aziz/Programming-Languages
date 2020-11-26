@@ -1,0 +1,58 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U bubblesort%b		bubblesort.adb		0e658cc2 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20200312110721 76789da1 ada%s
+D a-except.ads		20200312110721 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200312110721 119b8fb3 ada.streams%s
+D a-tags.ads		20200312110721 491b781d ada.tags%s
+D a-textio.ads		20200312110721 881db35a ada.text_io%s
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D bubblesort.adb	20201104101610 86783f98 bubblesort%b
+D interfac.ads		20200312110721 5ab55268 interfaces%s
+D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
+D system.ads		20200312110721 4635ec04 system%s
+D s-conca2.ads		20200312110721 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-ficobl.ads		20200312110721 078245e4 system.file_control_block%s
+D s-imgint.ads		20200312110721 02dbe0c2 system.img_int%s
+D s-parame.ads		20200312110721 48ec542b system.parameters%s
+D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312110721 a7318a92 system.soft_links%s
+D s-stache.ads		20200312110721 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312110721 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 8|5r6 5r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 8|5w10 5r27
+242U14*Put 8|16s9 33s9
+263U14*Put_Line 8|14s5 18s5 31s5 35s9
+X 8 bubblesort.adb
+7U11*bubblesort 7b11 37l5 37t15
+8i5 TEMP{integer} 23m17 25r27
+9I14 Integers<integer>
+10A14 IntArray(integer)<integer> 11r15
+11a9 Arr{10A14} 15r14 16r28 20r14 21r19 22r16 22r25 23r25 24m17 24r28 25m17
+. 32r14 33r28
+15i9 I{integer} 16r32
+20i9 I{integer} 21r32 22r20 24r32 25r21
+21i13 II{integer} 22r29 23r29 24r21
+32i9 I{integer} 33r32
+
